@@ -14,10 +14,9 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     font-family: ${(props) => props.theme.fonts.main};
-    background: ${(props) => props.theme.colors.light};
     color: ${(props) => props.theme.colors.dark};
-
     cursor: default;
+    
   }
   a {
     text-decoration: none;

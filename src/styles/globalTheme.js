@@ -7,7 +7,7 @@ const GlobalTheme = {
     head: '6rem',
     title: '3rem',
     text: '2rem',
-    p: '1rem',
+    p: '1.3rem',
   },
   colors: {
     primary: '#1976d2',
@@ -16,7 +16,7 @@ const GlobalTheme = {
   },
   gap: {
     sm: '1rem',
-    md: '2 rem',
+    md: '2rem',
     lg: '3rem',
     xl: '4rem',
   },
