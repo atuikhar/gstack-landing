@@ -4,7 +4,7 @@ const GlobalTheme = {
     main: 'Lato, sans-serif',
   },
   typography: {
-    head: '6rem',
+    head: '4rem',
     title: '3rem',
     text: '2rem',
     p: '1.3rem',

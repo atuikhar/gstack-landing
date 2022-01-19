@@ -8,7 +8,7 @@ import {
   Twitter,
   LinkedIn,
   GoTop,
-} from './FooterStyle'
+} from './FooterStyles'
 
 const Footer = () => {
   const handleClick = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
       </Navs>
       <Navs>
         <CopyrightIcon fontSize="large" />
-        <Text>GumStack Inc. 2022. All Rights Reserverd</Text>
+        <Text>Gumstack Inc. 2022</Text>
       </Navs>
       <Navs>
         <FooterNavLink>Privacy Policy</FooterNavLink>

@@ -8,7 +8,6 @@ export const RightNav = styled(Container)`
   display: flex;
   justify-content: end;
   padding: 0;
-  @media ${(props) => props.theme.breakpoints.sm} {
 `
 
 export const Logo = styled(CatchingPokemonIcon)`
@@ -41,7 +40,7 @@ export const NavLinks = styled(Button)`
     background-color: ${(props) => props.theme.colors.primary};
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     display: none;
   }
 `
@@ -59,7 +58,7 @@ export const NavItem = styled(MenuItem)`
 export const MobileNav = styled(WidgetsIcon)`
   display: none;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     display: block;
     font-size: 40px;
     color: ${(props) => props.theme.colors.dark};

@@ -9,19 +9,19 @@ export const FooterWrapper = styled(Container)`
   border-top: 4px solid black;
   display: flex;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: block;
   }
 `
 
 export const Navs = styled(Container)`
+  margin: 10px;
   padding: 0;
   display: flex;
   align-items: center;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     justify-content: center;
-    margin: 10px;
     width: 100%;
   }
 `
@@ -81,8 +81,5 @@ export const GoTop = styled(NavigationIcon)`
   font-size: 40px;
   &:hover {
     color: ${(props) => props.theme.colors.primary};
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
   }
 `
