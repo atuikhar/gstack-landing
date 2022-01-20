@@ -39,28 +39,13 @@ const Hero = () => {
           </Grid>
           <Grid item xs={12} md={12} lg={7}>
             <ImgWrapper>
-              <Image
-                src="https://images.unsplash.com/photo-1586980368323-8ce5db4c85ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80"
-                alt="img"
-              />
-              <Image
-                src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-                alt="img"
-              />{' '}
-              <Image
-                src="https://images.unsplash.com/photo-1586985564259-6211deb4c122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80"
-                alt="img"
-              />
-              <Image
-                src="https://images.unsplash.com/photo-1586985564150-11ee04838034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80"
-                alt="img"
-              />{' '}
+              <Image src="/Call2.jpg" alt="img" />
+              <Image src="/Call.jpg" alt="img" />{' '}
+              <Image src="/Call1.jpg" alt="img" />
+              <Image src="/VideoCalling.png" alt="img" />{' '}
             </ImgWrapper>
             <SmallImageWrapper>
-              <SmallImage
-                src="https://images.unsplash.com/photo-1586980368323-8ce5db4c85ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80"
-                alt="img"
-              />{' '}
+              <SmallImage src="/Call2.jpg" alt="img" />{' '}
             </SmallImageWrapper>
           </Grid>
         </Grid>
