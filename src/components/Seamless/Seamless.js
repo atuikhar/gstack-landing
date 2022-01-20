@@ -1,11 +1,4 @@
-import {
-  Grid,
-  Avatar,
-  ListItemText,
-  ListItem,
-  List,
-  ListItemAvatar,
-} from '@mui/material'
+import { Grid, List, ListItemAvatar } from '@mui/material'
 import {
   SeamlessWrapper,
   Wrapper,
@@ -35,7 +28,6 @@ const Seamless = () => {
           <Grid item xs={12} md={6} lg={5} xl={6}>
             <List>
               <Wrapper>
-                <Text>Works On All Devices</Text>
                 <ListItemContainer>
                   <ListItemAvatar>
                     <DevicesImages src="/Phone&Computer.png" />
@@ -43,27 +35,24 @@ const Seamless = () => {
                     <DevicesImages src="/Laptop1.png" />
                   </ListItemAvatar>
                 </ListItemContainer>
+                <Text>Works On All Devices</Text>
               </Wrapper>
 
               <Wrapper>
-                <Text>
-                  <SupportICon />
-                  Optional Video For Customers
-                </Text>
                 <ListItemContainer>
                   <ListItemAvatar>
                     <DevicesImages src="/Zoom.png" />
                   </ListItemAvatar>
                 </ListItemContainer>
+                <Text>
+                  <SupportICon />
+                  Optional Video For Customers
+                </Text>
               </Wrapper>
             </List>
           </Grid>
           <Grid item xs={12} md={6} lg={7} xl={6}>
             <Wrapper>
-              <Text>
-                <ClickICon /> One-Click Call From Browser
-              </Text>
-
               <ListItemContainer>
                 <ListItemAvatar>
                   <DevicesImages src="/Youtube.png" />
@@ -71,12 +60,11 @@ const Seamless = () => {
                   <DevicesImages src="/Browsing.png" />
                 </ListItemAvatar>
               </ListItemContainer>
+              <Text>
+                <ClickICon /> One-Click Call From Browser
+              </Text>
             </Wrapper>
             <Wrapper>
-              <Text>
-                <DownloadIcon />
-                No Download Needed
-              </Text>
               <ListItemContainer>
                 <ListItemAvatar>
                   <DevicesImages src="/Browser.png" />
@@ -85,6 +73,10 @@ const Seamless = () => {
                   <DevicesImages src="/VideoCalling.png" />
                 </ListItemAvatar>
               </ListItemContainer>
+              <Text>
+                <DownloadIcon />
+                No Download Needed
+              </Text>
             </Wrapper>
           </Grid>
         </Grid>
