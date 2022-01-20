@@ -5,7 +5,7 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent'
 import FileDownloadOffIcon from '@mui/icons-material/FileDownloadOff'
 
 export const Wrapper = styled(Container)`
-  margin: 30px;
+  margin-top: 30px;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 1px;
   }
@@ -33,6 +33,10 @@ export const Paragraph = styled.h5`
     line-height: 25px;
     font-size: ${(props) => props.theme.typography.p};
   }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 0;
+  }
 `
 
 export const DevicesImages = styled.img`
@@ -40,7 +44,7 @@ export const DevicesImages = styled.img`
   height: 100px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 150px;
+    width: 100px;
   }
 `
 

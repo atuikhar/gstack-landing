@@ -4,6 +4,7 @@ import Seamless from 'components/Seamless/Seamless'
 import AppFlow from 'components/AppFlow/AppFlow'
 import Integration from 'components/Integration/Integration'
 import Functionalities from 'components/Functionalities/Functionalities'
+import Testimonial from 'components/Testimonial/Testimonial'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AppFlow />
       <Integration />
       <Functionalities />
+      <Testimonial />
     </Layout>
   )
 }

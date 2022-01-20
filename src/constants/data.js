@@ -43,3 +43,30 @@ export const data = [
       'Monitor Response Times and Improve The Overall Customer Experience',
   },
 ]
+
+export const testimony = [
+  {
+    img: '/data-management.png',
+    title: 'You Are In Food Company',
+    rating: '4.5',
+    name: 'Sameen Eajaz',
+    company: 'COO, Co-Founder, Koskii',
+    desc: 'The app is exactly what we were looking for and has helped us add another sales channel very quickly.',
+  },
+  {
+    img: '/data-management.png',
+    title: 'You Are In Good Company',
+    rating: '4.5',
+    name: 'Sameen Eajaz',
+    company: 'COO, Co-Founder, Koskii',
+    desc: 'The app is exactly what we were looking for and has helped us add another sales channel very quickly.',
+  },
+  {
+    img: '/data-management.png',
+    title: 'You Are In Food Company',
+    rating: '5',
+    name: 'Sameen Eajaz',
+    company: 'COO, Co-Founder, Koskii',
+    desc: 'The app is exactly what we were looking for and has helped us add another sales channel very quickly.',
+  },
+]

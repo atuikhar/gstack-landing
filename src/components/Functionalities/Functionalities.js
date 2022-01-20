@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardMedia, CardContent } from '@mui/material'
+import { Card, CardContent } from '@mui/material'
 import {
   Wrapper,
   Title,

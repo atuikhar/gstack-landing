@@ -1,16 +1,23 @@
 import styled from 'styled-components'
+import Carousel from 'react-material-ui-carousel'
+
 import { Container } from '@mui/material'
 
 export const Wrapper = styled(Container)`
-  text-align: center;
-  margin-top: 100px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin-top: 50px;
-  }
+  height: 500px;
 `
-export const WrapperGrid = styled(Container)`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+export const WrapperContainer = styled(Container)`
+  text-align: center;
+`
+
+export const CarouselContainer = styled(Carousel)`
+  background-image: url('/Star.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80%;
+  width: 100%;
+  border-radius: 20px;
 `
 
 export const Text = styled.h1`
@@ -33,15 +40,14 @@ export const Title = styled.h1`
   }
 `
 export const Paragraph = styled.h3`
-  font-size: ${(props) => props.theme.typography.p};
+  font-size: ${(props) => props.theme.typography.text};
   font-family: ${(props) => props.theme.fonts.main};
   line-height: 20px;
 `
 
-export const Image = styled.img`
-  object: cover;
+export const ImageWrapper = styled.img`
   height: 100px;
   width: 100px;
-  border-radius: 50%;
-  cursor: pointer;
+  border-radius: 40%;
+  margin-top: 20px;
 `

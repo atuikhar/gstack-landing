@@ -12,7 +12,7 @@ import {
 const Integration = () => {
   return (
     <Wrapper>
-      <Grid container spacing={4}>
+      <Grid container spacing={2}>
         <Grid item sm={12} md={12} lg={7}>
           <Wrapper>
             <Title>Integrate in under 5 minutes</Title>

@@ -48,9 +48,10 @@ export const ListItemContainer = styled(ListItem)`
     padding-left: 10px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 10px;
     width: 100%;
     padding: 1px;
+    margin-top: 10px;
+    margin-left: 0px;
   }
 `
 export const CheckIcon = styled(CheckCircleIcon)`
@@ -61,6 +62,7 @@ export const IntegrationTechImage = styled.img`
   cursor: pointer;
   border-radius: 50%;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  margin-top: 20px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
