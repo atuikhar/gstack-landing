@@ -5,6 +5,9 @@ export const HeroWrapper = styled(Container)`
   text-align: center;
 
   margin-top: 100px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-top: 10px;
+  }
 `
 export const SmallImageWrapper = styled(Container)``
 export const ImgWrapper = styled(Container)`
@@ -19,6 +22,8 @@ export const InputWrapper = styled(Container)`
   @media ${(props) => props.theme.breakpoints.lg} {
     display: block;
   }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-top: 30px;
 `
 
 export const Title = styled.h1`
@@ -51,7 +56,7 @@ export const SubmitEmail = styled.button`
   font-weight: bold;
   cursor: pointer;
   border: 2px solid black;
-  //   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   border-radius: 5px;
   height: 46px;
   width: 100px;
@@ -63,7 +68,7 @@ export const SubmitEmail = styled.button`
     margin-top: 20px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin-top: 5px;
+    margin-top: 10px;
   }
 `
 export const InputField = styled(TextField)`
@@ -89,12 +94,10 @@ export const Image = styled.img`
   height: 250px;
   border-radius: 50%;
   cursor: pointer;
-  opacity: 0.8;
   padding: 10px;
   margin: 10px;
   object-fit: contain;
   &:hover {
-    opacity: 1;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
@@ -116,10 +119,8 @@ export const SmallImage = styled.img`
     height: 300px;
     border-radius: 50%;
     cursor: pointer;
-    opacity: 0.8;
 
     &:hover {
-      opacity: 1;
     }
   }
 `

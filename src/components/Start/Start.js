@@ -11,7 +11,7 @@ const Start = () => {
         <Image src="/VideoCalling.png" />
       </Wrapper>
 
-      <hr style={{ borderBottom: '4px solid black', margin: '50px' }} />
+      <hr style={{ borderBottom: '4px solid black', margin: '30px' }} />
     </>
   )
 }

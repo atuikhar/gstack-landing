@@ -17,6 +17,7 @@ const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.colors.dark};
     cursor: default;
     
+    
   }
   a {
     text-decoration: none;

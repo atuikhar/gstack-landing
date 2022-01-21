@@ -38,6 +38,7 @@ export const Title = styled.h1`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: ${(props) => props.theme.typography.text};
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 `
 

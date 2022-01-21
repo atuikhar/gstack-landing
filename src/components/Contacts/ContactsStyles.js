@@ -24,7 +24,6 @@ export const Text = styled.h1`
   font-family: ${(props) => props.theme.fonts.title};
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: ${(props) => props.theme.typography.p};
   }
 `
 export const Paragraph = styled.h3`
