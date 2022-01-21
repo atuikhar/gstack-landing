@@ -70,3 +70,11 @@ export const testimony = [
     desc: 'The app is exactly what we were looking for and has helped us add another sales channel very quickly.',
   },
 ]
+
+export const contact = [
+  { title: 'Use Cases', list: ['Retail', 'E-Commerce', 'Saas'] },
+  { title: 'Integrations', list: ['Shopify', 'Google Tag Manager'] },
+  { title: 'Compare', list: ['WhatsApp', 'FaceTime'] },
+  { title: 'Support', list: ['Talk To Us On Gumstack', 'Chat With Us'] },
+  { title: 'Resources', list: ['Developers API', 'Download Agent Apps'] },
+]

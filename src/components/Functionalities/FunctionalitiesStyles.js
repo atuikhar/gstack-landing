@@ -11,6 +11,7 @@ export const Wrapper = styled(Container)`
 export const WrapperGrid = styled(Container)`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 20px;
 `
 
 export const Text = styled.h1`

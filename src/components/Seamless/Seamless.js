@@ -69,9 +69,6 @@ const Seamless = () => {
                 <ListItemAvatar>
                   <DevicesImages src="/Browser.png" />
                 </ListItemAvatar>
-                <ListItemAvatar>
-                  <DevicesImages src="/VideoCalling.png" />
-                </ListItemAvatar>
               </ListItemContainer>
               <Text>
                 <DownloadIcon />
